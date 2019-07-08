@@ -5,12 +5,19 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    
+    
 }
 
 main {
-    width: 1440px;
-    background-color: hsl(257, 40%, 49%);
+    width: 100vw;
+    height: 100vh;
+    background: url("images/bg-desktop.svg"), hsl(257, 40%, 49%);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     color: white;
+    display: flex;
 }
 
 h1{

@@ -40,6 +40,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 We can all learn from each other's solution, so everyone would love to see your code. There is a Slack community, which you can sign up to on the Frontend Mentor website. Post the link to your repository there and get feedback from the community.
 
+
 If you decide to push the project live, tweet [@frontendmentor](https://twitter.com/frontendmentor). Mention **@frontendmentor** and include the URL in the tweet. We'd love to take a look at what you've built and help share it around.
 
 ## Giving feedback
