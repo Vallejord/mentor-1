@@ -17,8 +17,10 @@ main {
     color: white;
     display: flex;
     flex-direction: column;
+    /* border: 7px solid black; */
 }
 div{
+    border: 2px dotted black;
     margin: 0 auto;
     order: 2;
     display: flex;
@@ -27,19 +29,29 @@ div{
     justify-content: space-between;
 }
 #image {
+    border: 2px solid black;
     flex: 1;
+
     }
 
 article {
     flex :1;
     margin-left: 15px;
+    border: 2px solid black;
 }
 
 h1{
     font-family: 'Poppins', sans-serif;
 }
 
-
+footer {
+    width: 100%;
+    border: 2px dotted black;
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 
 
@@ -49,6 +61,7 @@ h1{
 
 
 #logo{
+    border: 2px dotted black;
     height: 8%;
     order: 1;
     align-self: start;
@@ -67,4 +80,4 @@ h1{
     font-size: 14px;
     border-radius: 40px;
     margin-top: 12px;
-}
+}               
