@@ -21,13 +21,40 @@ body{
     margin: 0 auto;
     width: 90%;
     border: 2px solid black;
+    display: grid;
+
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 150px 600px 150px ;
 }
+
 p {
    font-size: 0.7rem;
 }
 
 
+#logo {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    z-index: 10; 
+}
 
+.image {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+    width:100%;
+    
+}
+.words {
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+}
 
 
 
@@ -40,10 +67,6 @@ h1{
 
 
 
-
-.attribution { font-size: 11px; text-align: center; }
-
-.attribution a { color: hsl(228, 45%, 44%); }
 
 
 
