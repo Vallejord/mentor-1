@@ -24,7 +24,7 @@ body{
     display: grid;
 
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 150px 600px 150px ;
+    grid-template-rows: 5rem 600px 150px ;
 }
 
 p {
@@ -38,6 +38,8 @@ p {
     grid-row-start: 1; 
     grid-row-end: 2;
     z-index: 10; 
+    height: 2rem;
+    align-self: center;
 }
 
 .image {
