@@ -24,13 +24,17 @@ body{
     display: grid;
 
     grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 5rem 600px 150px ;
+    grid-template-rows: 5rem 600px 4rem ;
 }
 
 p {
-   font-size: 0.7rem;
+   font-size: 1rem;
 }
 
+article {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
 
 #logo {
     grid-column-start: 1; 
@@ -48,14 +52,25 @@ p {
 
     grid-row-start: 2; 
     grid-row-end: 3; 
-    width:100%;
+    width: 30rem;
+    height: 100%;
+    border: 2px solid black;
     
+    
+}
+
+.image img {
+    width: 28rem;
+    height: auto;
 }
 .words {
     grid-column-start: 3; 
     grid-column-end: 4;
     grid-row-start: 2; 
     grid-row-end: 3; 
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
 }
 
 
