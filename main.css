@@ -42,6 +42,17 @@ article {
     line-height: 1.7;
 }
 
+.button {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    height: 2rem;
+    width: 8rem;
+    
+    border-radius: 40px;
+    box-shadow: 1px 3px 5px lightslategray;
+    
+}
+
 #logo {
     grid-column-start: 1; 
     grid-column-end: 2; 
