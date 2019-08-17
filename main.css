@@ -17,6 +17,7 @@ body{
     background-size: cover;
     color: white; 
     }
+
 #grid{
     margin: 0 auto;
     width: 90%;
@@ -114,7 +115,20 @@ footer {
     margin: 0 0.5rem;
 }
 
+/* ----Responsive------*/
 
+@media (max-width: 480px) {
+
+#container {
+    max-width: 375px;
+    height: auto;
+    background: url("images/bg-desktop.svg"), hsl(257, 40%, 49%);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    }
+}
 
 
 
