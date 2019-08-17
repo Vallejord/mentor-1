@@ -128,7 +128,34 @@ footer {
     background-size: cover;
     color: white; 
     }
+
+    #grid{
+        margin: 0 auto;
+        width: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    #logo {
+         
+        height: 2rem;
+        align-self: flex-start;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .image img {
+        width: 14rem;
+        height: auto;
+    }
+
 }
+
+
 
 
 
