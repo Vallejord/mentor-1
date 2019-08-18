@@ -17,6 +17,7 @@ body{
     background-size: cover;
     color: white; 
     }
+
 #grid{
     margin: 0 auto;
     width: 90%;
@@ -112,6 +113,69 @@ footer {
 .fa {
     font-size: 120px;
     margin: 0 0.5rem;
+}
+
+/* ----Responsive------*/
+
+@media (max-width: 480px) {
+
+#container {
+    max-width: 375px;
+    height: auto;
+    background: url("images/bg-desktop.svg"), hsl(257, 40%, 49%);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    }
+
+    #grid{
+        margin: 0 auto;
+        width: 90%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    #logo {
+         
+        height: 2rem;
+        align-self: flex-start;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .image img {
+        width: 14rem;
+        height: auto;
+        align-self: center;
+    }
+
+    .words {
+        width: 100%;
+    }
+
+
+    .words  h1 {
+        font-size: 1.5rem;
+        /* border: 2px solid black; */
+    }
+     
+    .parrafo {
+        text-align: center;
+    }
+    .parr2 {
+        text-align: center;
+    }
+
+    p .button {
+        text-align: center;
+    }
+
+
 }
 
 
