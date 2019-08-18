@@ -145,13 +145,36 @@ footer {
         align-self: flex-start;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        
+
     }
 
     .image img {
         width: 14rem;
         height: auto;
+        align-self: center;
     }
+
+    .words {
+        width: 100%;
+    }
+
+
+    .words  h1 {
+        font-size: 1.5rem;
+        /* border: 2px solid black; */
+    }
+     
+    .parrafo {
+        text-align: center;
+    }
+    .parr2 {
+        text-align: center;
+    }
+
+    p .button {
+        text-align: center;
+    }
+
 
 }
 
