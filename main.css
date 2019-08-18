@@ -149,7 +149,7 @@ footer {
     }
 
     .image img {
-        width: 14rem;
+        width: 18rem;
         height: auto;
         align-self: center;
     }
@@ -170,12 +170,14 @@ footer {
     .parr2 {
         text-align: center;
     }
-
-    p .button {
+     
+    
+    article p {
         text-align: center;
     }
 
 
+    
 }
 
 
