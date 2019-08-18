@@ -5,29 +5,117 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    
-    
-}
+    font-size: 10px;
+    }
 
-main {
-    width: 100vw;
-    height: 100vh;
+#container {
+    max-width: 1440px;
+    height: auto;
     background: url("images/bg-desktop.svg"), hsl(257, 40%, 49%);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: white;
-    display: flex;
+    color: white; 
+    }
+#grid{
+    margin: 0 auto;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: grid;
+
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 5rem 21rem 4rem ;
 }
+
+p {
+   font-size: 0.8rem;
+}
+
+article {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.parrafo{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.button {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    height: 2rem;
+    width: 8rem;
+    
+    border-radius: 40px;
+    box-shadow: 0 8px 6px -6px black;
+    
+}
+
+#logo {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 2;
+    z-index: 10; 
+    height: 2rem;
+    align-self: center;
+}
+
+.image {
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+    width: 30rem;
+    height: 100%;
+    /* border: 2px solid black; */
+    
+    
+}
+
+.image img {
+    width: 28rem;
+    height: auto;
+}
+.words {
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+    width: 30rem;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+
 
 h1{
     font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    /* font-weight: normal; */
+    position: relative;
+    top: 1rem;
+}
+
+footer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    align-self: center;
+    justify-self: end;
+}
+
+.fa {
+    font-size: 120px;
+    margin: 0 0.5rem;
 }
 
 
 
 
 
-.attribution { font-size: 11px; text-align: center; }
 
-.attribution a { color: hsl(228, 45%, 44%); }
