@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with single introductory section
+# Frontend Mentor - Huddle landing page Challenge
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
