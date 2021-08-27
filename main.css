@@ -52,7 +52,24 @@ div .image,div .words {
 .first, .parrafo{
     padding-top: 3rem;
 }
- 
+.button {
+    /* outline: none; */
+    color:hsl(257, 40%, 49%);
+	background-color:white;
+    display:inline-block;
+    margin-top:2rem;
+    padding:1rem 4rem;
+    border:none;
+    border-radius:30px;
+    box-shadow: 0 8px 6px -6px black;
+	}
+.button:hover {
+	background-color:gray;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
 
 
 footer {
