@@ -13,6 +13,10 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 
@@ -32,15 +36,17 @@ main {
     display: flex;
     padding-top: 3rem;
 }
-/* borrar luego */
-/* .image, .words, main, footer {
-    border: 2px solid black;
-} */
 
-
-div .image,div .words {
-    width: 50%;
+.image, .words{
+    flex: 1;
+} 
+h1 {
+    font-family: 'Poppins', sans-serif;
 }
+p {
+    opacity: 0.8;
+}
+
 .image > img {
     width:90%;
 }
@@ -86,3 +92,30 @@ i {
 
 /* responsive media queries */
 
+@media screen and (max-width : 768px) {
+    #logo {
+        height: 4rem;
+    }
+    main {
+        flex-direction: column;
+    }
+
+    .first, .parrafo {
+        padding-top: 0; 
+    }
+    .words {
+        font-size: 1.3rem;
+        padding: 2rem;
+        text-align: center;
+        
+    }
+    .words h1 {
+        font-weight: 400;
+    }
+    .words p {
+        font-size:1.8rem;
+    }
+    footer {
+        justify-content: center;
+    }
+}
